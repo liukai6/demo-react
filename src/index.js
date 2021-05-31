@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Lesson01 from './test01/lesson01';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App />  */}
+    <Lesson01 />
   </React.StrictMode>,
   document.getElementById('root')
 );
